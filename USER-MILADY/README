@@ -1,11 +1,16 @@
 This package implements MILADY potentials as a LAMMPS pair style.
-
+ 
 This package uses an external library in lib/milady which must be
 compiled before building LAMMPS.  
 See the lib/milady/README file and the LAMMPS manual for information on 
 building LAMMPS with external libraries.  
-
-For detailed exlanation please refer also to 
+ 
+For detailed explanation please refer also to 
  https://github.com/ai-atoms/Lammps-MiLaDy 
+ 
+Milady/Lammps interface and Milady was written by 
+TDS (CNRS/CINaM, France) 
+and 
+ AMG, MCM. (CEA Université Paris-Saclay, France), respectively. 
+ 
 
-Milady/Lammps interface and Milady was written by TDS (CNRS/CINaM), AMG and MCM. 5CEA Saclay). 
