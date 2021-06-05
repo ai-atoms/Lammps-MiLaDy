@@ -51,7 +51,7 @@ root directory for MKL and intel64 libraries. We use `oneAPI Intel` distribution
 ```
 There are similar path for any older distribution of MKL and Intel Fortran such as Intel Composer, Intel Parallel Studio  etc
 
-If you have doubts. Write us. We are happy to help you !!!!
+If you have doubts: write us. We are happy to help you !!!!
 
 6. Compile again Lammps (e.g. using traditional `make mpi`). 
 
