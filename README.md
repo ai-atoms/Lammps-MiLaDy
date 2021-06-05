@@ -37,7 +37,7 @@ of `Lammps` (we use default parameters and `g++` compiler). Now, let's take the 
 
 5a. Make the appropiate links for Makefile and milady library for `ifort`. 
 ```
-cp lammps.git/lib/milady
+cd lammps.git/lib/milady
 ln -s Makefile.lammps.intel  Makefile.lammps
 ln -s libmilady.a_intel_mkl_oneAPI2021  libmilady.a
 ```
