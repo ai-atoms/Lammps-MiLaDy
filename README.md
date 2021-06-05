@@ -55,4 +55,7 @@ If you have doubts: write us. We are happy to help you !!!!
 
 6. Compile again Lammps (e.g. using traditional `make mpi`). 
 
+Usage:
+-----------------
+
 7. Run the examples.
