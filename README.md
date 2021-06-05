@@ -53,3 +53,6 @@ There are similar path for any older distribution of MKL and Intel Fortran such 
 
 If you have doubts. Write us. We are happy to help you !!!!
 
+6. Compile again Lammps (e.g. using traditional `make mpi`). 
+
+7. Run the examples.
