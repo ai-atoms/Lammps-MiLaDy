@@ -23,3 +23,10 @@ git clone --recursive  git@github.com:ai-atoms/Lammps-MiLaDy.git Lammps-MiLaDy.g
 ```
 cp -rp Lammps-MiLaDy.git/USER-MILADY  lammps.git/src
 ```
+
+4. install MiLaDy in Lammps
+
+```
+cd lammps.git/src 
+make yes-user-milady 
+```
