@@ -81,8 +81,7 @@ make yes-user-milady
 ```
 
 5. Choose the compilator for `MiLaDy`: `intel` or `gfortran`. Note that there is no restriction in the choice that you have for the compilation 
-of `Lammps` (we use default parameters and `g++` compiler). 
-    Now, let's take the case of `MiLaDy`integrated in `Lammps`  using Intel Fortran `ifort`. There are two steps to do that:
+of `Lammps` (we use default parameters and `g++` compiler). Now, let's take the case of `MiLaDy`integrated in `Lammps`  using Intel Fortran `ifort`. There are two steps to do that:
     
     5a. Make the appropiate links for `Makefile` and `milady` library for `ifort`. 
     
