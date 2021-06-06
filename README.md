@@ -1,5 +1,4 @@
 # Lammps-MiLaDy
-This directory provides ML interatomic potentials developed with MiLaDy package and Lammps module to perform calculations with them. 
 
 ```
 ,---.    ,---.-./`)   .---.       ____    ______        ____     __  
@@ -12,17 +11,25 @@ This directory provides ML interatomic potentials developed with MiLaDy package 
 |  |      |  ||   |   |        \ (_ o _) /       .'   \      /       
 '--'      '--''---'   `--------`'.(_,_).''-----'`      `-..-'        
 ```
-MiLaDy library has many contributors. Among them:
+**This directory provides:**
+ - ML interatomic potentials developed with MiLaDy package
+ - Lammps module to perform calculations with MiLaDy ML potentials 
 
-Alexandra M. Goryaeva, Université Paris-Saclay, CEA, Service de Recherches de Métallurgie Physique, 91191, Gif-sur-Yvette, France (`alexandra . goryaeva at cea dot fr`) 
+**This directory does not provide:**
+ - Any tools for development of ML potentials or MiLaDy source code 
 
-Thomas  D. Swinburne, Aix-Marseille Université, CNRS, CINaM UMR 7325, Campus de Luminy, 13288 Marseille, France (`swinburne  at cinam dot univ - mrs dot fr`)
-
-Clovis Lapointe, Université Paris-Saclay, CEA, Service de Recherches de Métallurgie Physique, 91191, Gif-sur-Yvette, France (`clovis . lapointe at cea dot fr`) 
+**Contributors:**
 
 Mihai-Cosmin Marinica, Université Paris-Saclay, CEA, Service de Recherches de Métallurgie Physique, 91191, Gif-sur-Yvette, France(`mihai - cosmin . marinica at cea dot fr`)
 
-The interface with `Lammps` was written by TDS and MCM. 
+Thomas  D. Swinburne, Aix-Marseille Université, CNRS, CINaM UMR 7325, Campus de Luminy, 13288 Marseille, France (`swinburne  at cinam dot univ - mrs dot fr`)
+
+Alexandra M. Goryaeva, Université Paris-Saclay, CEA, Service de Recherches de Métallurgie Physique, 91191, Gif-sur-Yvette, France (`alexandra . goryaeva at cea dot fr`) 
+
+Clovis Lapointe, Université Paris-Saclay, CEA, Service de Recherches de Métallurgie Physique, 91191, Gif-sur-Yvette, France (`clovis . lapointe at cea dot fr`) 
+
+
+The interface with `Lammps` is written by TDS and MCM. 
 
 
 
@@ -39,14 +46,18 @@ pair_coeff * * Fe_LML.pot Fe
 ```
 The ready-to-use input files can be found in `Examples` of this repository
 
-Requirements:
--------------
+
+
+Installation:
+-----------------
+**Requirements:**
 
 - Fortran compiler: `gfortran` OR `ifort`
 - C++ compiler: `g++` 
 - MKL library from Intel 
 
 We have tested with following versions:
+
 ```
   g++        (version >= 9.0.0)
   gfortran   (version >= 9.0.0)
@@ -55,9 +66,7 @@ We have tested with following versions:
 ```
 
 
-Installation:
------------------
-
+**Instructions**
 
 1. Download the last version of `Lammps`
 
