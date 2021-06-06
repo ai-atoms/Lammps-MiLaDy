@@ -1,0 +1,50 @@
+units		metal
+boundary	p p p
+
+atom_style	atomic
+atom_modify     map array sort 0 0.0
+pair_style      milady
+
+box             tilt large
+
+read_data	ini.lammps
+pair_coeff *  *    Fe_LML.pot Fe
+
+group                           Fe type 1
+mass                            1  55.8450
+
+reset_timestep           0
+
+
+thermo			2
+
+timestep	0.01
+min_style	cg
+
+#minimize etol ftol maxiter maxeval
+minimize                 1.0e-6  1.0e-3 1000 10000
+thermo 1
+thermo_style custom step etotal  fmax pxx pyy pzz pxy pxz pyz pe
+
+variable vol_box equal vol
+variable natoms equal  atoms
+variable        sxx equal pxx
+variable        syy equal pyy
+variable        szz equal pzz
+variable        sxy equal pxy
+variable        sxz equal pxz
+variable        syz equal pyz
+variable tenergy equal  pe
+run 0
+print "Number_of_atoms = ${natoms}"
+print "Energy_box = ${tenergy}"
+print "sig_xx = ${sxx}"
+print "sig_yy = ${syy}"
+print "sig_zz = ${szz}"
+print "sig_xy = ${sxy}"
+print "sig_xz = ${sxz}"
+print "sig_yz = ${syz}"
+print "Volume = ${vol_box}"
+
+#write_data  initial_relaxed.data
+write_data  relaxed.data
