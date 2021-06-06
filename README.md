@@ -101,6 +101,8 @@ of `Lammps` (we use default parameters and `g++` compiler).
    The paths will be similar for any older distribution of `MKL` and `Intel Fortran`,  such as `Intel Composer`, `Intel Parallel Studio`,  etc.
    If you have doubts: write us. We are happy to help you !!!!
 
+The case of `gfortran` is absolutely similar.
+
 6. Compile your `Lammps` (e.g. using traditional `make mpi`). 
 7. To test your `Lammps-MiLady`, run the examples provided in `Examples` of this repository
 
