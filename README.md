@@ -10,7 +10,7 @@ Running Lammps with MiLaDy potentials is easy: set `pair_style  milady` and indi
 #Lammps input
 
 pair_style milady
-pair_coeff * * LML.pot Fe 
+pair_coeff * * Fe_LML.pot Fe 
 ```
 More deailed input can be found in `Examples` of this repositiry
 
@@ -67,6 +67,6 @@ There are similar path for any older distribution of MKL and Intel Fortran such 
 If you have doubts: write us. We are happy to help you !!!!
 
 6. Compile again Lammps (e.g. using traditional `make mpi`). 
-7. To test your Lammps-MiLady, run the examples provided in provided in `Examples` of this repositiry
+7. To test your Lammps-MiLady, run the examples provided in `Examples` of this repositiry
 
 
