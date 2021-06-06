@@ -1,5 +1,28 @@
 # Lammps-MiLaDy
-This directory provides ML interatomic potentials developed with MiLaDy package and Lammps module to perform calculations with them 
+This directory provides ML interatomic potentials developed with MiLaDy package and Lammps module to perform calculations with them. 
+
+```
+,---.    ,---.-./`)   .---.       ____    ______        ____     __  
+|    \  /    \ .-.')  | ,_|     .'  __ `.|    _ `''.    \   \   /  / 
+|  ,  \/  ,  / `-' \,-./  )    /   '  \  \ _ | ) _  \    \  _. /  '  
+|  |\_   /|  |`-'`"`\  '_ '`)  |___|  /  |( ''_'  ) |     _( )_ .'   
+|  _( )_/ |  |.---.  > (_)  )     _.-`   | . (_) `. | ___(_ o _)'    
+| (_ o _) |  ||   | (  .  .-'  .'   _    |(_    ._) '|   |(_,_)'     
+|  (_,_)  |  ||   |  `-'`-'|___|  _( )_  |  (_.\.' / |   `-'  /      
+|  |      |  ||   |   |        \ (_ o _) /       .'   \      /       
+'--'      '--''---'   `--------`'.(_,_).''-----'`      `-..-'        
+```
+MiLaDy library has many contributors, such as:
+
+Alexandra M. Goryaeva, Université Paris-Saclay, CEA, Service de Recherches de Métallurgie Physique, 91191, Gif-sur-Yvette, France (`alexandra . goryaeva at cea dot fr`) 
+
+Thomas  D. Swinburne, Aix-Marseille Université, CNRS, CINaM UMR 7325, Campus de Luminy, 13288 Marseille, France (`swinburne  at cinam dot univ - mrs dot fr`)
+
+Clovis Lapointe, Université Paris-Saclay, CEA, Service de Recherches de Métallurgie Physique, 91191, Gif-sur-Yvette, France (`clovis . lapointe at cea dot fr`) 
+
+Mihai-Cosmin Marinica, Université Paris-Saclay, CEA, Service de Recherches de Métallurgie Physique, 91191, Gif-sur-Yvette, France(`mihai - cosmin . marinica at cea dot fr`)
+
+The interface with Lammps was written by TDS and MCM. 
 
 
 Using MiLaDy potentials in Lammps:
@@ -12,7 +35,7 @@ Running Lammps with MiLaDy potentials is easy: set `pair_style  milady` and indi
 pair_style milady
 pair_coeff * * Fe_LML.pot Fe 
 ```
-The ready-to-use input files can be found in `Examples` of this repositiry
+The ready-to-use input files can be found in `Examples` of this repository
 
 
 Installation:
