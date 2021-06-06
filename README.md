@@ -22,7 +22,19 @@ Clovis Lapointe, Université Paris-Saclay, CEA, Service de Recherches de Métall
 
 Mihai-Cosmin Marinica, Université Paris-Saclay, CEA, Service de Recherches de Métallurgie Physique, 91191, Gif-sur-Yvette, France(`mihai - cosmin . marinica at cea dot fr`)
 
-The interface with Lammps was written by TDS and MCM. 
+The interface with Lammps was written by TDS and MCM. In order to use this distribution, you should have:
+
+- Fortran compiler: `gfortran` OR `ifort`
+- C++ compiler: `g++` 
+- MKL library from Intel 
+
+We have tested with following versions:
+```
+  g++        (version >= 9.0.0)
+  gfortran   (version >= 9.0.0)
+  ifort      (version >= 2018.0.0)
+  MKL        (version >= 2018.0.0) with gfortran support
+```
 
 
 Using MiLaDy potentials in Lammps:
