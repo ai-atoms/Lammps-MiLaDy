@@ -1,14 +1,14 @@
-# nelements elements
-# descriptor type, nweights, ndetails, weight_factor
+# nelements element_1 weight_1 element_2 weight_2 ... etc
+# descriptor type, nparameters, ndetails
 # mass_1,...mass_nelements
-# detail_1 is the snap_order,...detail_ndetails (e.g. snap_order no_of_radial_channels no_of_angular_channels)
+# detail_1,...detail_ndetails (e.g. no_of_radial_channels no_of_angular_channels)
 # r_cut_ij for i=1,N j=(i,N) where N= number of elements; i.e. r_11 r_12 r_22 for N=2
 # w_ij  for i=1,N j=(i,N) ( i.e. w_11 w_12 w_22 per line for N=2)
-           1   W 
-   9  3081   3        1.0000000000
+           1    W   1.000
+   9  3081   3
             183.8400
     2  4.0   0
-             10.6000
+             5.3000
   3.023933568719675E-003
   1.439770836007440E-002
   4.402479119870417E-002

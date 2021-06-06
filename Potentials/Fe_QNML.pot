@@ -4,11 +4,11 @@
 # detail_1 is the snap_order,...detail_ndetails (e.g. snap_order no_of_radial_channels no_of_angular_channels)
 # r_cut_ij for i=1,N j=(i,N) where N= number of elements; i.e. r_11 r_12 r_22 for N=2
 # w_ij  for i=1,N j=(i,N) ( i.e. w_11 w_12 w_22 per line for N=2)
-           1   Fe
-   9  3081   3        1.0000000000
+           1   Fe     1.000
+   9  3081   3
              55.8450
     2  4.0   0
-              9.4000
+              4.700
  -6.286203433222505E-005
   5.805480224692019E-003
   2.959553786185580E-003
