@@ -80,7 +80,7 @@ cd lammps.git/src
 make yes-user-milady
 ```
 
-5. Choose the comppilator for `MiLaDy`: `intel` or `gfortran`. Note that there is no restriction in the choice that you have for the compilation 
+5. Choose the compilator for `MiLaDy`: `intel` or `gfortran`. Note that there is no restriction in the choice that you have for the compilation 
 of `Lammps` (we use default parameters and `g++` compiler). 
     Now, let's take the case of `MiLaDy`integrated in `Lammps`  using Intel Fortran `ifort`. There are two steps to do that:
     
@@ -102,6 +102,6 @@ of `Lammps` (we use default parameters and `g++` compiler).
    If you have doubts: write us. We are happy to help you !!!!
 
 6. Compile your `Lammps` (e.g. using traditional `make mpi`). 
-7. To test your `Lammps-MiLady`, run the examples provided in `Examples` of this repositiry
+7. To test your `Lammps-MiLady`, run the examples provided in `Examples` of this repository
 
 
