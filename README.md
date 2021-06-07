@@ -1,4 +1,3 @@
-# Lammps-MiLaDy
 
 ```
 ,---.    ,---.-./`)   .---.       ____    ______        ____     __  
@@ -11,6 +10,8 @@
 |  |      |  ||   |   |        \ (_ o _) /       .'   \      /       
 '--'      '--''---'   `--------`'.(_,_).''-----'`      `-..-'        
 ```
+## About Lammps-MiLaDy
+
 **This directory provides:**
  - ML interatomic potentials developed with MiLaDy package
  - Pre-compiled MiLaDy library for Lammps
@@ -33,20 +34,7 @@ Mihai-Cosmin Marinica, Université Paris-Saclay, CEA, Service de Recherches de M
 The interface with `Lammps` is written by TDS and MCM. 
 
 
-
-
-Using MiLaDy potentials in Lammps:
---------------------------------------
-Running Lammps with MiLaDy potentials is easy: set `pair_style  milady` and indicate the potential file in your Lammps input file:
-
-```
-#Lammps input
-
-pair_style milady
-pair_coeff * * Fe_LML.pot Fe 
-```
-The ready-to-use input files can be found in `Examples` of this repository
-
+## [Using MiLaDy potentials in Lammps](USAGE.md)
 
 
 ## [Installation](INSTALLATION.md)
