@@ -31,7 +31,7 @@ Clovis Lapointe, Université Paris-Saclay, CEA, Service de Recherches de Métall
 
 Mihai-Cosmin Marinica, Université Paris-Saclay, CEA, Service de Recherches de Métallurgie Physique, 91191, Gif-sur-Yvette, France(`mihai - cosmin . marinica at cea dot fr`)
 
-**Contributors of Lammps - Milady interface :**
+**Contributors of Lammps - MiLaDy interface :**
 
 Thomas  D. Swinburne, Aix-Marseille Université, CNRS, CINaM UMR 7325, Campus de Luminy, 13288 Marseille, France (`swinburne  at cinam dot univ - mrs dot fr`)
 
