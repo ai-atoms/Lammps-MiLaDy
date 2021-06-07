@@ -83,11 +83,9 @@ Below, we provide the 2-step example using Intel Fortran `ifort`. The case of `g
    If you have doubts: write us. We are happy to help you !!!!
 
 
-6. Compile `Lammps`:
+6. Compile `Lammps`. For more details on`Lammps` compilation, see [Lammps documentation](http://lammps.sandia.gov/doc/Section_start.html)
  ```
  make mpi
 ```
-
-    For more details on`Lammps` compilation, see [LAMMPS documentation](http://lammps.sandia.gov/doc/Section_start.html)
  
 7. Test your `Lammps-MiLady`, run the examples provided in `Examples` of this repository
