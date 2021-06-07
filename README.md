@@ -20,7 +20,7 @@
 
  
 
-**Contributors of Milady-library:**
+**Contributors of MiLaDy library:**
 
 
 Alexandra M. Goryaeva, Université Paris-Saclay, CEA, Service de Recherches de Métallurgie Physique, 91191, Gif-sur-Yvette, France (`alexandra . goryaeva at cea dot fr`) 
