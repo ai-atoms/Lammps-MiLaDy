@@ -1,4 +1,21 @@
-# Installation
+# Lammps-MiLaDy
+
+```
+,---.    ,---.-./`)   .---.       ____    ______        ____     __  
+|    \  /    \ .-.')  | ,_|     .'  __ `.|    _ `''.    \   \   /  / 
+|  ,  \/  ,  / `-' \,-./  )    /   '  \  \ _ | ) _  \    \  _. /  '  
+|  |\_   /|  |`-'`"`\  '_ '`)  |___|  /  |( ''_'  ) |     _( )_ .'   
+|  _( )_/ |  |.---.  > (_)  )     _.-`   | . (_) `. | ___(_ o _)'    
+| (_ o _) |  ||   | (  .  .-'  .'   _    |(_    ._) '|   |(_,_)'     
+|  (_,_)  |  ||   |  `-'`-'|___|  _( )_  |  (_.\.' / |   `-'  /      
+|  |      |  ||   |   |        \ (_ o _) /       .'   \      /       
+'--'      '--''---'   `--------`'.(_,_).''-----'`      `-..-'        
+```
+
+## [About Lammps-MiLaDy](README.md)
+## [Using MiLaDy potentials in Lammps](USAGE.md)
+
+## Installation
 
 **Requirements:**
 
@@ -18,19 +35,19 @@ We have tested with following versions:
 
 **Instructions**
 
-1. Download the last version of `Lammps`
+1. Clone the public repository of `Lammps`:
 
 ```
 git clone --recursive  https://github.com/lammps/lammps.git  lammps.git 
 ```
 
-2. Download our `Lammps-MiLaDy` package:
+2. Clone our `Lammps-MiLaDy` repository:
 
 ```
 git clone --recursive  git@github.com:ai-atoms/Lammps-MiLaDy.git Lammps-MiLaDy.git
 ```
 
-3. Copy `USER-MILADY` interface and `milady` library in main `src` and `lib` directories of `Lammps`, respectively:
+3. Copy `USER-MILADY` interface and `milady` library to main `src` and `lib` directories of `Lammps`, respectively:
 
 ```
 cp -rp Lammps-MiLaDy.git/USER-MILADY  lammps.git/src/
