@@ -44,7 +44,8 @@ git clone --recursive  https://github.com/lammps/lammps.git  lammps.git
 2. Clone our `Lammps-MiLaDy` repository:
 
 ```
-git clone --recursive  git@github.com:ai-atoms/Lammps-MiLaDy.git Lammps-MiLaDy.git
+git clone --recursive  https://github.com/ai-atoms/Lammps-MiLaDy.git Lammps-MiLaDy.git
+
 ```
 
 3. Copy `USER-MILADY` interface and `milady` library to main `src` and `lib` directories of `Lammps`, respectively:
