@@ -90,3 +90,6 @@ Below, we provide the 2-step example using Intel Fortran `ifort`. The case of `g
 ```
  
 7. Test your `Lammps-MiLady`, run the examples provided in `Examples` of this repository
+
+IMPORTANT:  Many thanks to users that have reported some typos in this installation page: Marie Landeiro Dos Reis and Antoine Kraych ! 
+
