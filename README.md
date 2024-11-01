@@ -1,15 +1,8 @@
 
-```
-,---.    ,---.-./`)   .---.       ____    ______        ____     __  
-|    \  /    \ .-.')  | ,_|     .'  __ `.|    _ `''.    \   \   /  / 
-|  ,  \/  ,  / `-' \,-./  )    /   '  \  \ _ | ) _  \    \  _. /  '  
-|  |\_   /|  |`-'`"`\  '_ '`)  |___|  /  |( ''_'  ) |     _( )_ .'   
-|  _( )_/ |  |.---.  > (_)  )     _.-`   | . (_) `. | ___(_ o _)'    
-| (_ o _) |  ||   | (  .  .-'  .'   _    |(_    ._) '|   |(_,_)'     
-|  (_,_)  |  ||   |  `-'`-'|___|  _( )_  |  (_.\.' / |   `-'  /      
-|  |      |  ||   |   |        \ (_ o _) /       .'   \      /       
-'--'      '--''---'   `--------`'.(_,_).''-----'`      `-..-'        
-```
+# Repository Moved
+This repository has moved to [https://ai-atoms.github.io/milady/](https://ai-atoms.github.io/milady/). Please visit that link for the most up-to-date information and resources.
+
+
 ## About Lammps-MiLaDy
 
 **This directory provides:**
